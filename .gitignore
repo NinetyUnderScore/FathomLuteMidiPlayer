@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# Music collection stays local (large, third-party MIDI files).
+# The project's own tiny test file is kept.
+songs/*
+!songs/test.mid
+
+# Per-song tempo / instrument / key choices, written at runtime
+SongSettings.json
+
+# Local tool settings
+.claude/settings.local.json
+.claude/*
+CLAUDE.md
+.claude
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

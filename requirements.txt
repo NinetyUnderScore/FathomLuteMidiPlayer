@@ -1,0 +1,4 @@
+pynput>=1.7
+
+# Only needed to build the standalone exe (python build.py).
+pyinstaller>=6.0
